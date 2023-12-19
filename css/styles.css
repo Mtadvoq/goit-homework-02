@@ -1,6 +1,6 @@
 body {
-  font-family: "Roboto", sans-serif;
   color: #434455;
+  font-family: "Roboto", sans-serif;
 }
 
 .header {
@@ -19,7 +19,7 @@ body {
 }
 
 .header-logo-web {
-  color: var(--IRIS, #4d5ae5);
+  color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -30,7 +30,7 @@ body {
 }
 
 .header-nav {
-  color: var(--NAVY-BLUE, #2e2f42);
+  color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5; /* 150% */
@@ -54,7 +54,7 @@ ul {
 }
 
 .page-address {
-  color: var(--SLATE, #434455);
+  color: #434455;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -71,7 +71,7 @@ ul {
 }
 
 .page-address-tel {
-  color: var(--SLATE, #434455);
+  color: #434455;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -100,8 +100,8 @@ ul {
 .button-order {
   font-family: "Roboto", sans-serif;
   border-radius: 4px;
-  background: var(--IRIS, #4d5ae5);
-  color: var(--WHITE, #fff);
+  background: #4d5ae5;
+  color: #fff;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5; /* 150% */
@@ -110,7 +110,7 @@ ul {
 }
 
 .button-order:hover {
-  background: var(--OCEAN, #404bbf);
+  background: #404bbf;
 }
 
 .button-order :focus {
@@ -138,7 +138,6 @@ ul {
 .team-title {
   color: #2e2f42;
   background: #f4f4fd;
-  color: var(--NAVY-BLUE, #2e2f42);
   text-align: center;
   font-size: 36px;
   font-weight: 700;
@@ -202,7 +201,7 @@ ul {
 }
 
 .footer-logo {
-  color: var(--CLOUD, #f4f4fd);
+  color: #f4f4fd;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -212,7 +211,7 @@ ul {
 }
 
 .footer-logo-web {
-  color: var(--IRIS, #4d5ae5);
+  color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -223,7 +222,7 @@ ul {
 }
 
 .footer-text {
-  color: var(--CLOUD, #f4f4fd);
+  color: #f4f4fd;
   width: 264px;
   font-size: 16px;
   font-weight: 400;
