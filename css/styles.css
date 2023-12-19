@@ -93,7 +93,6 @@ ul {
 .slogan-title {
   color: #ffffff;
   background-color: #2e2f42;
-  text-align: center;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07; /* 107.143% */
@@ -125,7 +124,6 @@ ul {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: left;
 }
 
 /* features */
@@ -144,7 +142,6 @@ ul {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: left;
 }
 
 /* team */
@@ -156,7 +153,6 @@ ul {
 .team-title {
   color: #2e2f42;
   background: #f4f4fd;
-  text-align: center;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11; /* 111.111% */
@@ -174,7 +170,6 @@ ul {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: center;
 }
 
 .team-text {
@@ -183,7 +178,6 @@ ul {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: center;
 }
 
 /* portfolio */
@@ -193,7 +187,6 @@ ul {
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  text-align: center;
 }
 
 .portfolio-name {
@@ -202,7 +195,6 @@ ul {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: left;
 }
 
 .portfolio-list {
@@ -215,7 +207,6 @@ ul {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: left;
 }
 
 /* footer */
