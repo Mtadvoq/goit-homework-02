@@ -90,9 +90,14 @@ ul {
   color: #404bbf;
 }
 
+/* slogan */
+.slogan {
+  background-color: #2e2f42;
+}
+
 .slogan-title {
   color: #ffffff;
-  background-color: #2e2f42;
+  text-align: center;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07; /* 107.143% */
@@ -157,6 +162,7 @@ ul {
   font-weight: 700;
   line-height: 1.11; /* 111.111% */
   letter-spacing: 0.02em;
+  text-align: center;
   text-transform: capitalize;
 }
 .team-list {
@@ -187,6 +193,7 @@ ul {
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .portfolio-name {
