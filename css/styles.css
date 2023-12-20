@@ -25,7 +25,7 @@ body {
 
 .header-logo {
   color: #4d5ae5;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17; /* 116.667% */
@@ -40,7 +40,7 @@ body {
 
 .header-logo-web {
   color: #2e2f42;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17; /* 116.667% */
@@ -82,7 +82,9 @@ ul {
   color: #434455;
 }
 
-.page-address-mail :hover,
+.page-address-mail :hover {
+  color: #404bbf;
+}
 .page-address-mail :focus {
   color: #404bbf;
 }
@@ -94,7 +96,10 @@ ul {
   color: #434455;
 }
 
-.page-address-tel :hover,
+.page-address-tel :hover {
+  color: #404bbf;
+}
+
 .page-address-tel :focus {
   color: #404bbf;
 }
@@ -126,11 +131,12 @@ ul {
 }
 
 .button-order:hover,
-.button-order :focus {
+.button-order :focus,
+.button-order :active {
   background-color: #404bbf;
 }
 
-.button-order :active .features-title {
+.features-title {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
