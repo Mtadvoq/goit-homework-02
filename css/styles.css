@@ -17,10 +17,12 @@ body {
   letter-spacing: 0.02em;
 }
 
-.header-nav :hover,
+.header-nav :hover {
+  color: #404bbf;
+}
+
 .header-nav :focus {
   color: #404bbf;
-  text-decoration: none;
 }
 
 .header-logo {
@@ -75,6 +77,11 @@ ul {
   font-style: normal;
 }
 
+.page-address :hover,
+.page-address :focus {
+  color: #404bbf;
+}
+
 .page-address-mail {
   font-size: 16px;
   line-height: 1.5; /* 150% */
@@ -82,26 +89,11 @@ ul {
   color: #434455;
 }
 
-.page-address-mail :hover {
-  color: #404bbf;
-}
-.page-address-mail :focus {
-  color: #404bbf;
-}
-
 .page-address-tel {
   font-size: 16px;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
   color: #434455;
-}
-
-.page-address-tel :hover {
-  color: #404bbf;
-}
-
-.page-address-tel :focus {
-  color: #404bbf;
 }
 
 /* slogan */
@@ -119,6 +111,7 @@ ul {
   letter-spacing: 0.02em;
 }
 
+/* button */
 .button-order {
   font-family: "Roboto", sans-serif;
   background: #4d5ae5;
@@ -131,11 +124,11 @@ ul {
 }
 
 .button-order:hover,
-.button-order :focus,
-.button-order :active {
+.button-order:focus {
   background-color: #404bbf;
 }
 
+/* features */
 .features-title {
   color: #2e2f42;
   font-size: 20px;
@@ -144,7 +137,6 @@ ul {
   letter-spacing: 0.02em;
 }
 
-/* features */
 .features-title {
   color: #2e2f42;
   font-family: "Roboto", sans-serif;
@@ -235,13 +227,13 @@ ul {
 }
 
 .footer-logo {
+  color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
 }
 
 .footer-logo-web {
