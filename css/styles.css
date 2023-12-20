@@ -9,6 +9,22 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.header-nav {
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+}
+
+.header-nav :hover {
+  color: #404bbf;
+}
+.header-nav :focus a {
+  color: #404bbf;
+  text-decoration: none;
+}
+
 .header-logo {
   color: #2e2f42;
 }
@@ -25,22 +41,6 @@ body {
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  text-decoration: none;
-}
-
-.header-nav {
-  color: #2e2f42;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5; /* 150% */
-  letter-spacing: 0.02em;
-}
-
-.header-nav :hover {
-  color: #404bbf;
-}
-.header-nav :focus a {
-  color: #404bbf;
   text-decoration: none;
 }
 
