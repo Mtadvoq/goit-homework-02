@@ -17,23 +17,21 @@ body {
   letter-spacing: 0.02em;
 }
 
-.header-nav :hover {
-  color: #404bbf;
-}
-.header-nav :focus a {
+.header-nav :hover,
+.header-nav :focus {
   color: #404bbf;
   text-decoration: none;
 }
 
 .header-logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
+  color: #4d5ae5;
+  font-family: Raleway;
   font-size: 18px;
+  font-weight: 700;
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
-  color: #4d5ae5;
 }
 
 .header-logo :focus {
@@ -42,6 +40,12 @@ body {
 
 .header-logo-web {
   color: #2e2f42;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17; /* 116.667% */
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 a {
@@ -52,37 +56,48 @@ ul {
   list-style: none;
 }
 
+.header-nav-link {
+  color: #2e2f42;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+}
+
+.header-nav-link :hover,
+.header-nav-link :focus {
+  color: #404bbf;
+  text-decoration: none;
+}
+
 /* address */
 .page-address {
-  font-size: 16px;
   font-style: normal;
+}
+
+.page-address-mail {
+  font-size: 16px;
   font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
   color: #434455;
 }
 
-.page-address :hover {
-  color: #404bbf;
-}
-
-.page-address :focus {
+.page-address-mail :hover,
+.page-address-mail :focus {
   color: #404bbf;
 }
 
 .page-address-tel {
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
   color: #434455;
 }
 
-.page-address-tel :hover {
-  color: #404bbf;
-}
-
+.page-address-tel :hover,
 .page-address-tel :focus {
   color: #404bbf;
 }
